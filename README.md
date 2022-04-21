@@ -40,6 +40,10 @@ You may use these `Regex` patterns to design your own lexer based on a state dia
 
 You may notice that '+', '-', '*',  '/', '=', '<', and '>' are identifiers in our language. 
 
+
+Here is a diagram I put together quickin in Spring2022 - let me know if you find an error:
+![state diagram](diagram.png)
+
 ## Tokenization
 
 Each time your program reads a LISPish program, you will print all of the tokens and lexemes. Each token will be displayed on its own line, the token type will be displayed with a field-width of 20 characters, followed by the lexeme (the text of the token). 
