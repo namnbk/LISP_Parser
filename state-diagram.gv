@@ -18,7 +18,7 @@ digraph G {
     0 -> 1[label="=(,)"];
     0 -> 2[label="+,-"];
     0 -> 6[label="\""];
-    0 -> 9[label="not WS,(,),or\""];
+    0 -> 9[label="anythong else"];
     0 -> 3[label="0-9"];
 
 
