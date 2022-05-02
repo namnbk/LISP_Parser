@@ -6,6 +6,9 @@ For this project you will write `lispish.exe`, an parser for a simple LISP-like 
 
 Your program will read a LISP expression and print the parse tree.  
 
+> NOTE:  I created a video demonstrating me solving a similar problem in c-sharp at [this link](https://youtu.be/jgQONmpCQ-c).  The files are in this repo. 
+
+
 ## Getting Started
 1. Clone your fork 
 1. Type `make update`  to get the latest version of the assignment 
