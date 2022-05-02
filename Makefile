@@ -1,4 +1,4 @@
-all: update check
+all: update check diagram
 
 EXAMPLES=1 2 3 4 5 6 7
 
@@ -10,6 +10,7 @@ output: $(addprefix example, $(addsuffix .output, $(EXAMPLES)))
 lispish.exe: lispish.cs
 	csc lispish.cs
 
+diagram: diagram.png
 
 diagram.png: state-diagram.gv
 	dot state-diagram.gv -odiagram.png -Tpng
