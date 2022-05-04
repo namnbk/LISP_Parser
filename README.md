@@ -34,7 +34,7 @@ The token types are described by the following regular expressions (use [regex10
 - `LITERAL` = [[\\(\\)]](https://regex101.com/r/YTsgaN/1)
 - `REAL` = [[+-]?[0-9]*\\.[0-9]+](https://regex101.com/r/Zneyy2/1)
 - `INT` = [[+-]?[0-9]+](https://regex101.com/r/iXVsuF/1)
-- `STRING` = ["(?>\\\\.|[^"])*"](https://regex101.com/r/NvtTXK/1).  Multiline strings are not allowed. 
+- `STRING` = ["(?>\\\\.|[^\\"])*"](https://regex101.com/r/NvtTXK/1).  Multiline strings are not allowed. 
 - `ID` = [[^\s"\(\)]+](https://regex101.com/r/PeL1IV/1/)
 - Anything else other than whitespace is an error ( `INVALID`)
 
