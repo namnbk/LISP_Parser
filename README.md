@@ -38,7 +38,7 @@ The token types are described by the following regular expressions (use [regex10
 - `ID` = [[^\s"\(\)]+](https://regex101.com/r/PeL1IV/1/)
 - Anything else other than whitespace is an error ( `INVALID`)
 
-You may use these `Regex` patterns to design your own lexer based on a state diagram as we did in the lab, or you can use the C# `Regex.Matches(src)` method to scan the input for matches, taking care to skip whitespace. When designing a tokenizer, the first pattern that matches the input string starting from the current position should be the one that you use.
+You may use these `Regex` patterns to design your own lexer based on a state diagram as we did in the lab, or you can use the C# `Regex.Match` method to scan the input for matches, taking care to skip whitespace and handle newline appropriately. When designing a tokenizer, the first pattern that matches the input string starting from the current position should be the one that you use.
 
 
 You may notice that '+', '-', '*',  '/', '=', '<', and '>' are identifiers in our language. 
