@@ -1,4 +1,4 @@
-# Project 2
+# Lisp Parser
 
 Implement a parser Lisp(ish) in CSharp. 
 
